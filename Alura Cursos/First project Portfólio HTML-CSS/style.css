@@ -27,13 +27,15 @@ body {
 
 .apresentacao_conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .paragrafo_apresentacao{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    padding-bottom: 15px;
     
 }
 
@@ -41,12 +43,11 @@ body {
     font-size: 34px;
     font-family: 'Krona One', sans-serif;
     text-align: justify;
-    padding-bottom: 15px;
 }
 
 .imagem_freire{
     border-radius: 100%;
-    max-width: 400px
+    max-width: 500px
 }
 
 .apresentacao_links{
