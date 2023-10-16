@@ -24,6 +24,12 @@
     
 }
 
+.cabecalho_menu_link:hover{
+    transition: 500ms;
+    transform: scale(1.5);
+}
+
+
 body {
     /* height: 100vh; */
     overflow:hidden;
@@ -32,7 +38,6 @@ body {
     color: #F6F6F6;
 
 }
-
 
 .titulo-destaque{
      color: #ac5e94;
@@ -99,7 +104,9 @@ body {
 }
 
 .apresentacao_links_link:hover{
-    background-color: #8b8b8bb0;
+    background-color: #b972ab49;
+    transition: 500ms;
+    transform: scale(1.1);
 }
 
 .nomegf{
