@@ -24,7 +24,7 @@ body {
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 10%
+    padding: 1.5% 0% 0% 10%
 }
 
 .cabecalho_menu{
@@ -34,6 +34,9 @@ body {
 }
 .cabecalho_menu_link{
     text-decoration: none;
+    border-left: 2px dashed var(--cor-secundaria);
+    border-right: 2px dashed var(--cor-secundaria);
+    padding: 0px 10px 0px 10px;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600px;
@@ -131,11 +134,12 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
+    border-top: 2px solid var(--cor-secundaria);
+    background-color:var(--cor-primaria);
+    color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400px;
 
 }
@@ -152,6 +156,7 @@ body {
     }
     .cabecalho_menu{
         justify-content: center;
+        
         gap: 40px;
     }
     .cabecalho_menu_link{
@@ -174,6 +179,9 @@ body {
     .paragrafo_apresentacao{
         font-size: 1rem;
     }
+    .apresentacao_links{
+        margin-bottom: 5%;
+    }
     .apresentação_links_subtitulo{
         font-size: 1rem;
         gap: 20px;
@@ -184,7 +192,7 @@ body {
         align-items: center;
     }
     .rodape{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
 
