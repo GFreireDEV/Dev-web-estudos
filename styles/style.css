@@ -17,7 +17,7 @@
 
 body {
     min-height: 100vh;
-    /* position: relative; */
+    position: relative;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-terciaria);
@@ -128,8 +128,8 @@ body {
 
 
 .rodape{
-    /* position: fixed; */
-    /* bottom: 0; */
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
@@ -189,8 +189,6 @@ body {
 
 
     }
-
-
 
 @keyframes spin {
     from {
