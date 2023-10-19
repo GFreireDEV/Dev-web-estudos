@@ -166,6 +166,7 @@ body {
         border-radius: 5%;
     }
     .apresentacao{
+        padding: 5%;
         flex-direction: column-reverse;
         gap: 30px;
     }
